@@ -3,7 +3,7 @@
 		"allowJs": false,
 		"declaration": true,
 		"forceConsistentCasingInFileNames": true,
-		"module": "esnext",
+		//"module": This is local to the config
 		"moduleResolution": "node",
 		"noImplicitAny": true,
 		"preserveConstEnums": true,
@@ -11,7 +11,10 @@
 		"removeComments": false,
 		"sourceMap": true,
 		"strict": true,
-		"target": "esnext",
-		"jsx": "react"
-	}
+		"target": "esnext"
+	},
+	// local tsconfig specifies local paths
+	//"include": [
+	//	"./**/*"
+	//]
 }

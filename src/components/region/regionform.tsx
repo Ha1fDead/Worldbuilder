@@ -10,7 +10,7 @@ interface IRegionFormProp {
 /**
  * Form with configuration to set up and build a region. Will call an external function when the form is submitted with the generated region
  */
-export default class RegionForm extends React.Component<IRegionFormProp, RegionGenConfig> {
+export class RegionForm extends React.Component<IRegionFormProp, RegionGenConfig> {
 	public regionGenerator: RegionGenerator;
 
 	constructor(props: IRegionFormProp) {

@@ -1,6 +1,6 @@
 import * as React from "react";
-import VUtils from "../../utils";
-import Settlement from "./settlement";
+import { VUtils } from "../../utils";
+import { Settlement } from "./settlement";
 
 interface ISettlementRenderProps {
 	Settlements: Settlement[];
@@ -9,7 +9,7 @@ interface ISettlementRenderProps {
 /**
  * The region component, which displays a region with all of its fields in a user-friendly format
  */
-export default class SettlementRender extends React.Component<ISettlementRenderProps, {}> {
+export class SettlementRender extends React.Component<ISettlementRenderProps, {}> {
 	constructor(props: ISettlementRenderProps) {
 		super(props);
 	}
