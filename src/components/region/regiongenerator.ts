@@ -1,4 +1,4 @@
-import Settlement from "../settlement/settlement";
+import { Settlement } from "../settlement/settlement";
 import { RegionModel } from "./region";
 import { RegionGenConfig } from "./regiongenconfig";
 
