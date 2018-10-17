@@ -9,8 +9,5 @@ export declare class RegionGenerator {
      * @param regionGenConfiguration the configuration to build the region from
      */
     generate(regionGenConfiguration: RegionGenConfig): RegionModel;
-    private buildCities;
-    private buildRemainingVillages;
-    private buildTowns;
     private getRandomArbitraryInteger;
 }

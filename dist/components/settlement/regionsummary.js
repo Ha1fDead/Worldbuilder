@@ -3,7 +3,7 @@ import { VUtils } from "../../utils";
 /**
  * The region component, which displays a region with all of its fields in a user-friendly format
  */
-export class SettlementRender extends React.Component {
+export class RegionSummary extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -53,4 +53,4 @@ export class SettlementRender extends React.Component {
             }))));
     }
 }
-//# sourceMappingURL=settlementrender.js.map
+//# sourceMappingURL=regionsummary.js.map

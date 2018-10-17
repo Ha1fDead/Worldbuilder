@@ -2,20 +2,19 @@ import * as React from "react";
 import { VUtils } from "../../utils";
 import { Settlement } from "./settlement";
 
-interface ISettlementRenderProps {
+interface IRegionSummaryProps {
 	Settlements: Settlement[];
 }
 
 /**
  * The region component, which displays a region with all of its fields in a user-friendly format
  */
-export class SettlementRender extends React.Component<ISettlementRenderProps, {}> {
-	constructor(props: ISettlementRenderProps) {
+export class RegionSummary extends React.Component<IRegionSummaryProps, {}> {
+	constructor(props: IRegionSummaryProps) {
 		super(props);
 	}
 
 	public render() {
-		
 		return (
 			<table>
 				<thead>

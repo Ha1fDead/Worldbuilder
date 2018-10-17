@@ -1,6 +1,6 @@
 import * as React from "react";
 import { VUtils } from "../../utils";
-import { SettlementRender } from "../settlement/settlementrender";
+import { RegionSummary } from "../settlement/regionsummary";
 /**
  * The region component, which displays a region with all of its fields in a user-friendly format
  */
@@ -98,7 +98,7 @@ export class RegionRender extends React.Component {
                     React.createElement("li", null,
                         "#Towns: ",
                         this.props.region.Towns.length.toLocaleString())),
-                React.createElement(SettlementRender, { Settlements: settlements }))));
+                React.createElement(RegionSummary, { Settlements: settlements }))));
     }
 }
 //# sourceMappingURL=regionrender.js.map
