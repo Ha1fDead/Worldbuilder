@@ -13,6 +13,8 @@ Ultimately, I got some great experience. I don't regret working on this:
 2. I learned a ton about `package.json` formats and behaviors
 3. I learned even more about SSH Key management
 
+This project was remerged and can be viewed here: https://github.com/Ha1fDead/Portal0/tree/master/src/client/worldbuilder
+
 ## Using
 
 To use the worldbuilder, you'll have to bundle the files yourself. For rollup, you'll want to do something like:
