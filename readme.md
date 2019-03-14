@@ -1,5 +1,18 @@
 # Worldbuilder
 
+This project was an attempt to modularize my website's codebase. My goal was to have multiple Git projects that I could pull into the website dynamically. I largely succeeded but abandoned it for several reasons.
+
+1. It was a lot of work to test and debug my apps in isolation
+2. It was even more work to pull those changes into the website during deployment
+3. Managing the SSH keys of multiple projects wasn't an enjoyable experience
+4. The work required to upkeep and maintain just wasn't worth the development time for a personal project being worked on by one developer
+
+Ultimately, I got some great experience. I don't regret working on this:
+
+1. I learned how to modularize a front-end project into multiple Git projects (very useful for enterprise environments)
+2. I learned a ton about `package.json` formats and behaviors
+3. I learned even more about SSH Key management
+
 ## Using
 
 To use the worldbuilder, you'll have to bundle the files yourself. For rollup, you'll want to do something like:
